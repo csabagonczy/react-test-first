@@ -16,7 +16,7 @@ const Sandbox = () => {
 
   return (
     <div className="sandbox">
-      <div className="container">
+      <div className="counter-container">
         <h1>Counter: {count}</h1>
         <div className="button-group">
           <Button onClick={increase} className="btn btn-success">
