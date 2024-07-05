@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { Button } from "../../components";
+import { Button } from "components";
 
 import "./Sandbox.css";
 

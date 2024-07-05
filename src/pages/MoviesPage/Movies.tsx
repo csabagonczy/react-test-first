@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { TrashFill, PencilFill, SortDown, SortUp } from "react-bootstrap-icons";
 
-import { Button } from "../../components";
-import { MovieModel } from "../../models";
+import { Button } from "components";
+import { MovieModel } from "models";
 import EditMovieModal from "./EditMovieModal";
 
 import "./Movies.css";

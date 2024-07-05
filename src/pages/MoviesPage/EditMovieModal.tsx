@@ -1,7 +1,7 @@
 import { ChangeEvent, useEffect, useState } from "react";
 import { Modal, ModalFooter } from "react-bootstrap";
 
-import { MovieModel } from "../../models";
+import { MovieModel } from "models";
 
 interface EditMovieModalProps {
   movie: MovieModel;

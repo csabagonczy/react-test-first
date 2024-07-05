@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
-import { NavigationModel } from "../../models";
+
+import { NavigationModel } from "models";
 
 import "./NavigationBar.css";
 
@@ -13,7 +14,7 @@ export const NavigationBar = ({ links }: NavigationBarProp) => {
       <nav>
         <ul>
           {links.map((nav) => (
-            <li>
+            <li key={nav.path}>
               <NavLink to={nav.path}>{nav.text}</NavLink>
             </li>
           ))}
