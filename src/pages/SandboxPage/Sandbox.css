@@ -1,0 +1,32 @@
+.sandbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.counter-container {
+  width: 100%;
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional box shadow for card effect */
+}
+
+.counter-container h1 {
+  margin: 0;
+  font-size: 48px; /* Adjust font size as needed */
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px; /* Optional margin for spacing between counter and buttons */
+}
+
+.btn {
+  flex: 1; /* Equal width buttons */
+  max-width: 120px; /* Limit button width */
+}
